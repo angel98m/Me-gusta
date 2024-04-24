@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    width: 61%;
+    background-color: #000000;
+    color: white;
+    
+
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.Pagina {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    
+}
+
+.perfil {
+    border: 3px solid #000000;
+    width: 150px; /* Ancho del perfil */
+    padding: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex; /* Cambiar a disposición de columna */
+    flex-direction: column; /* Columna */
+    align-items: center; /* Centrar elementos */
+    height: 250px; /* Altura del perfil */
+    margin-left: 80px;
+}
+
+.perfil h2,
+.perfil p {
+    text-align: center; /* Centrar el texto */
+}
+
+.nav {
+    width: 70%;
+    padding-left: 20px;
+}
+
+/* Estilos de los posts */
+.post-container {
+    border: 3px solid #333;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir sombra */
+}
+
+.post {
+    padding: 40px;
+    position: relative;
+}
+
+.foto {
+    width: 80px; /* Reducir el tamaño de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y los textos */
+}
+
+.post-content {
+    flex: 1; /* Hace que el contenido se expanda para llenar el espacio disponible */
+}
+
+.post h2, h3
+.post p {
+    margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+
+/* Estilos para los botones */
+button {
+    padding: 5px 10px;
+    background-color: #ffcc00; /* Amarillo */
+    color: #020202;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+    position: absolute;
+    top: 35px;
+    right: 15px;
+}
+
+button:hover {
+    background-color: #ffd700; /* Amarillo más claro */
+}
+
+span.likes {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    color: #000000;
+}
